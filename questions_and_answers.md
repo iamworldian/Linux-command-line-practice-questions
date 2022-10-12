@@ -28,7 +28,7 @@
 </details>
 
 7. Exit from the terminal<details><summary>ANS</summary>
-    `[me@linux ~] exit --giga`
+    `[me@linux ~] exit`
 </details>
 
 ## Navigation
