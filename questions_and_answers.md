@@ -1,7 +1,10 @@
 
 # Linux Command Line Practice Questions
 
+# Part - 1
+
 ## Warming Up
+---
 
 1. Show date in the terminal<details><summary>ANS</summary>
     `[me@linux ~] date`
@@ -32,4 +35,49 @@
 </details>
 
 ## Navigation
-1. 
+---
+1. Print the name of the current directory?<details><summary>ANS</summary>
+    `[me@linux ~] pwd`
+</details>
+
+2. Show the contents of a directory<details><summary>ANS</summary>
+    `[me@linux ~] ls`
+</details>
+
+3. Show allocated size of each file in block of current directory<details><summary>ANS</summary>
+    `[me@linux ~] ls -s`
+</details>
+
+4. Show allocated size of each file in human readable format of current directory<details><summary>ANS</summary>
+    `[me@linux ~] ls -sh`
+</details>
+
+5. Show all files in long listing format<details><summary>ANS</summary>
+    `[me@linux ~] ls -l`
+</details>
+
+6. Change your current directory to /usr/bin ?<details><summary>ANS</summary>
+    `[me@linux ~] cd /usr/bin`
+</details>
+
+7. Go one step backward from your current directory <details><summary>ANS</summary>
+    `[me@linux ~] cd ..`
+</details>
+
+8. Open a text file with less<details><summary>ANS</summary>
+    `[me@linux ~] less [filename or path]`
+</details>
+
+
+## Manipulating Files And the Directories
+---
+## Working With Commands
+---
+## Redirection and Piping
+---
+## Advanced Keyboard Tricks
+---
+## Permission
+---
+## Process
+---
