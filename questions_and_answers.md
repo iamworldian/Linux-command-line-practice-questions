@@ -1,6 +1,11 @@
 
 # Linux Command Line Practice Questions
+
 # Index
+* [Part - 1](#part---1)
+    * [Warming Up](#warming-up)
+    * [Navigation](#navigation)
+
    
 # Part - 1
 
