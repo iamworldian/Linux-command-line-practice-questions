@@ -4,7 +4,6 @@
 # Part - 1
 
 ## Warming Up
----
 
 1. Show date in the terminal<details><summary>ANS</summary>
     `[me@linux ~] date`
@@ -35,7 +34,6 @@
 </details>
 
 ## Navigation
----
 1. Print the name of the current directory?<details><summary>ANS</summary>
     `[me@linux ~] pwd`
 </details>
@@ -68,16 +66,15 @@
     `[me@linux ~] less [filename or path]`
 </details>
 
-
 ## Manipulating Files And the Directories
----
+
 ## Working With Commands
----
+
 ## Redirection and Piping
----
+
 ## Advanced Keyboard Tricks
----
+
 ## Permission
----
+
 ## Process
----
+
