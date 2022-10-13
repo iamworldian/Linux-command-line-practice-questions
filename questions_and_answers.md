@@ -1,5 +1,7 @@
 
 # Linux Command Line Practice Questions
+# Index
+    * [Warming Up](#warming-up)
 
 # Part - 1
 
