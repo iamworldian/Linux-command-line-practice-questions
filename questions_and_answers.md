@@ -6,7 +6,7 @@
     * [Warming Up](#warming-up)
     * [Navigation](#navigation)
     * [Manipulating Files And the Directories](#manipulating-files-and-the-directories)
-    * 
+    * [Working with commands](#working-with-commands)
     * 
     * 
 
