@@ -19,7 +19,7 @@
     `[me@linux ~] date`
 </details>
 
-2. Show calend in the terminal<details><summary>ANS</summary>
+2. Show calendar in the terminal<details><summary>ANS</summary>
     `[me@linux ~] cal`
 </details>
 
@@ -27,7 +27,7 @@
     `[me@linux ~] df`
 </details>
 
-4. Show disk drives infos(Size , Used , Available , Use% etc) ?<details><summary>ANS</summary>
+4. Show disk drives infos(Size , Used , Available , Use% etc) in human readable format ?<details><summary>ANS</summary>
     `[me@linux ~] df -h`
 </details>
 
