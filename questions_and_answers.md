@@ -120,6 +120,18 @@
 
 ## Working With Commands
 
+1. Locate the command `man` <details><summary>ANS</summary>
+    `[me@linux ~] which man`
+</details>
+
+2. Open the manual page for `ls`<details><summary>ANS</summary>
+    `[me@linux ~] man ls`
+</details>
+
+3. Display a brief description of the command `find`<details><summary>ANS</summary>
+    `[me@linux ~] whatis find`
+</details>
+
 ## Redirection and Piping
 
 ## Advanced Keyboard Tricks
