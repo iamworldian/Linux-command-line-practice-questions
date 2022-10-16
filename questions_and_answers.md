@@ -7,7 +7,7 @@
     * [Navigation](#navigation)
     * [Manipulating Files And the Directories](#manipulating-files-and-the-directories)
     * [Working with commands](#working-with-commands)
-    * 
+    * [Redirecting and piping](#redirection-and-piping)
     * 
 
    
@@ -132,7 +132,94 @@
     `[me@linux ~] whatis find`
 </details>
 
-## Redirection and Piping
+## Redirection I/O and Piping
+
+1. Get the long listing of the directory `/usr/bin` and output the list in `output.txt` file not in `stdout` [hint: use `>` operator]<details><summary>ANS</summary>
+    `[me@linux ~] ls -l /usr/bin > output.txt`
+</details>
+
+2. Show the output of `output.txt`<details><summary>ANS</summary>
+    `[me@linux ~] less output.txt`
+</details>
+
+3. Get the long listing of the directory `/usr/share` and ***append*** output in `output.txt` file not in `stdout`  [hint: use `>>` operator]<details><summary>ANS</summary>
+    `[me@linux ~] ls -l /usr/share >> output.txt`
+</details>
+
+4. How to redirect the output of  `ls -l /usr/share` & `stdout & stderr` together in a same file<details><summary>ANS</summary>
+    `[me@linux ~] ls -l /usr/share &> output.txt`
+</details>
+
+5. Save the string - `The quick brown fox jumped over the lazy dog.` in a file name `dog.txt`<details><summary>ANS</summary>
+    `[me@linux ~] cat > dog.txt`
+</details>
+
+6. Open the `dog.txt` file<details><summary>ANS</summary>
+    `[me@linux ~] cat  dog.txt`
+
+    OR
+    `[me@linux ~] less  dog.txt`
+</details>
+
+7. Get the long listing of the directory `/usr/share` and print it through `stdout` via `less` in one single command [hint: use pipe `|` operator]<details><summary>ANS</summary>
+    `[me@linux ~] ls -l /usr/share | less`
+</details>
+
+8. Get the normal listing of the directory `/home` and `/home/{$username}/Desktop` , sort the output and print it through `stdout` via `less` in one single command<details><summary>ANS</summary>
+    `[me@linux ~] ls /home /home/{$username}/Desktop | sort | less`
+</details>
+
+9. Get the list of files in the directory `/usr/include` where the files have `.h` extension and show them via `stdout`<details><summary>ANS</summary>
+    `[me@linux ~] ls /usr/include | grep .h`
+
+    or `[me@linux ~] ls /usr/include *.h`
+</details>
+
+9. Get the list of files in the directory `/usr/include` where the files have `.h` extension and show them via `stdout`<details><summary>ANS</summary>
+    `[me@linux ~] ls /usr/include | grep .h`
+
+    or `[me@linux ~] ls /usr/include *.h`
+</details>
+
+10. Get the number of files in the directory `/usr/include` where the files have `.h` extension and show the number via `stdout`<details><summary>ANS</summary>
+    `[me@linux ~] ls /usr/include | grep .h | wc -l`
+</details>
+
+11. Get the files in the directory `/usr/include` where the files have `.h` extension and redirect them to `headers.txt`<details><summary>ANS</summary>
+    `[me@linux ~] ls /usr/include | grep .h > headers.txt`
+</details>
+
+12. Get the files in the directory `/usr/include` where the files have `.h` extension , sort them and redirect them to `headers.txt`<details><summary>ANS</summary>
+    `[me@linux ~] ls /usr/include | grep .h | sort > headers.txt`
+</details>
+
+13. Get the number of unique files are in these directories `/bin` and `/usr/bin`<details><summary>ANS</summary>
+    `[me@linux ~] ls /bin /usr/bin | uniq | wc -l`
+</details>
+
+13. Get the number of duplicate files are in these directories `/bin` and `/usr/bin`<details><summary>ANS</summary>
+    `[me@linux ~] ls /bin /usr/bin | sort |uniq -d | wc -l`
+</details>
+
+13. Get the name of the files are in these directories `/bin` and `/usr/bin`<details><summary>ANS</summary> where they had the word `zip` in the name
+    `[me@linux ~] ls /bin /usr/bin | sort | uniq -d | grep zip`
+</details>
+
+14. Get first 5 name of the files are in these directories `/bin` and `/usr/bin` where they had the word `zip` in the name<details><summary>ANS</summary> 
+    `[me@linux ~] ls /bin /usr/bin | sort | uniq -d | grep zip | head -n 5`
+</details>
+
+15. Get last 5 name of the files are in these directories `/bin` and `/usr/bin` where they had the word `zip` in the name<details><summary>ANS</summary> 
+    `[me@linux ~] ls /bin /usr/bin | sort | uniq -d | grep zip | tail -n 5`
+</details>
+
+15. Use `tail` command to see a live changes of a text file name `dog.txt`<details><summary>ANS</summary> 
+    `[me@linux ~] tail -f dog.txt`
+</details>
+
+16. Get name of the unique files are in these directories `/bin` and `/usr/bin` where they had the word `zip` in the name and output it into a text file call `zipped.txt` and in `stdout` by one single command [hint: use `tee`]<details><summary>ANS</summary> 
+    `[me@linux ~] ls /bin /usr/bin | sort | uniq -d | grep zip | tee zipped.txt`
+</details>
 
 ## Advanced Keyboard Tricks
 
