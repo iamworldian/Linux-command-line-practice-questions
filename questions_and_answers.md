@@ -7,7 +7,7 @@
     * [Navigation](#navigation)
     * [Manipulating Files And the Directories](#manipulating-files-and-the-directories)
     * [Working with commands](#working-with-commands)
-    * [Redirecting and piping](#redirection-and-piping)
+    * [Redirecting and piping](#redirection-io-and-piping)
     * 
 
    
