@@ -78,43 +78,43 @@
 
 ## Manipulating Files And the Directories
 
-1. Copy a file named 'Book.pdf' from the Downloads folder to Desktop ? <details><summary>ANS</summary>
+1. Copy a file named `Book.pdf` from the Downloads folder to Desktop ? <details><summary>ANS</summary>
     `[me@linux ~] cp /home/$USERNAME/Downloads/Book.pdf /home/$USERNAME/Desktop`
 </details>
 
-2. Copy a directory named 'Books' from the Downloads folder to Desktop ? <details><summary>ANS</summary>
+2. Copy a directory named `Books` from the Downloads folder to Desktop ? <details><summary>ANS</summary>
     `[me@linux ~] cp -r /home/$USERNAME/Downloads/Book/ /home/$USERNAME/Desktop`
 </details>
 
-3. Copy all file starts with 'Book' and ends with '.pdf' from the Downloads folder to Desktop ? [hint : use wildcards] <details><summary>ANS</summary>
+3. Copy all file starts with `Book` and ends with `.pdf` from the Downloads folder to Desktop ? [hint : use wildcards] <details><summary>ANS</summary>
     `[me@linux ~] cp /home/$USERNAME/Downloads/Book*.pdf /home/$USERNAME/Desktop`
 </details>
 
-4. Create a directory names 'dir1' in the current directory <details><summary>ANS</summary>
+4. Create a directory names `dir1` in the current directory <details><summary>ANS</summary>
     `[me@linux ~] mkdir dir1`
 </details>
 
-5. Create 3 directories names 'dir1' , 'dir2' , 'dir2' in the current directory <details><summary>ANS</summary>
+5. Create 3 directories names `dir1` , `dir2` , `dir2` in the current directory <details><summary>ANS</summary>
     `[me@linux ~] mkdir dir1 dir2 dir3`
 </details>
 
-6. Move a file named 'Book.pdf' from the Downloads folder to Desktop ? <details><summary>ANS</summary>
+6. Move a file named `Book.pdf` from the Downloads folder to Desktop ? <details><summary>ANS</summary>
     `[me@linux ~] mv /home/$USERNAME/Downloads/Book.pdf /home/$USERNAME/Desktop`
 </details>
 
-7. Move a directory named 'Books' from the Downloads folder to Desktop ? <details><summary>ANS</summary>
+7. Move a directory named `Books` from the Downloads folder to Desktop ? <details><summary>ANS</summary>
     `[me@linux ~] cp -r /home/$USERNAME/Downloads/Book/ /home/$USERNAME/Desktop`
 </details>
 
-8. Copy all file starts with 'Book' and ends with '.pdf' from the Downloads folder to Desktop ? [hint : use wildcards] <details><summary>ANS</summary>
+8. Copy all file starts with `Book` and ends with `.pdf` from the Downloads folder to Desktop ? [hint : use wildcards] <details><summary>ANS</summary>
     `[me@linux ~] mv /home/$USERNAME/Downloads/Book*.pdf /home/$USERNAME/Desktop`
 </details>
 
-9. Remove a file 'Book.pdf' from Downloads folder <details><summary>ANS</summary>
+9. Remove a file `Book.pdf` from Downloads folder <details><summary>ANS</summary>
     `[me@linux ~] rm /home/$USERNAME/Downloads/Book.pdf`
 </details>
 
-10. Remove a directory 'Books' from Downloads folder <details><summary>ANS</summary>
+10. Remove a directory `Books` from Downloads folder <details><summary>ANS</summary>
     `[me@linux ~] rm -r /home/$USERNAME/Downloads/Books`
 </details>
 
