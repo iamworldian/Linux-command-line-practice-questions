@@ -223,6 +223,22 @@
 
 ## Advanced Keyboard Tricks
 
+1. Display the contents of the history list<details><summary>ANS</summary> 
+    `[me@linux ~] history`
+</details>
+
+2. Clear the screen<details><summary>ANS</summary> 
+    `[me@linux ~] clear`
+</details>
+
+3. Move cursos to the begining of the line<details><summary>ANS</summary> 
+    `Ctrl - a`
+</details>
+
+4. Move cursos to the end of the line<details><summary>ANS</summary> 
+    `Ctrl - e`
+</details>
+
 ## Permission
 
 ## Process
