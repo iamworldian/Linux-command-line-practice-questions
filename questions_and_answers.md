@@ -8,7 +8,7 @@
     * [Manipulating Files And the Directories](#manipulating-files-and-the-directories)
     * [Working with commands](#working-with-commands)
     * [Redirecting and piping](#redirection-io-and-piping)
-    * 
+    * [Permission](#permission)
 
    
 # Part - 1
@@ -240,6 +240,35 @@
 </details>
 
 ## Permission
+
+1. Display your identity?<details><summary>ANS</summary> 
+    `[me@linux ~] id`
+</details>
+
+    
+2. Obeseve the file permission details<br/>`-rw-rw-r-- 1 worldian worldian 16 Oct 21 16:53 test.sh`<br/>
+write commands to add excution permission to all<details><summary>ANS</summary> 
+    `[me@linux ~] sudo chmod +x test.sh`
+</details>
+
+
+3. Obeseve the file permission details<br/>`-rwxrwxrwx 1 worldian worldian 16 Oct 21 16:53 test.sh`<br/>
+write commands to give `read` and `write` permission to only the user and `excution` to all all<details><summary>ANS</summary> 
+    `[me@linux ~] sudo chmod u=rw,g=x,o=x test.sh` <br/>or<br/>
+    `[me@linux ~] sudo chmod a=x,u=rw test.sh`
+</details>
+
+
+4. Obeseve the file permission details<br/>`-rwxrwxrwx 1 worldian worldian 16 Oct 21 16:53 test.sh`<br/>
+write commands to give `read` and `write` permission to only the user and `read` permission toall<details><summary>ANS</summary> 
+    `[me@linux ~] sudo chmod a=r,u=rw test.sh`
+</details>
+
+
+
+
+ 
+
 
 ## Process
 
