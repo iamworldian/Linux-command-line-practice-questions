@@ -9,6 +9,7 @@
     * [Working with commands](#working-with-commands)
     * [Redirecting and piping](#redirection-io-and-piping)
     * [Permission](#permission)
+    * [process](#process)
 
    
 # Part - 1
@@ -264,11 +265,60 @@ write commands to give `read` and `write` permission to only the user and `read`
     `[me@linux ~] sudo chmod a=r,u=rw test.sh`
 </details>
 
-
-
-
- 
-
-
 ## Process
+
+1. Show running process of the current shell ?<details><summary>ANS</summary> 
+    `[me@linux ~] ps`
+</details>
+
+2. Show all current running processes ?<details><summary>ANS</summary> 
+    `[me@linux ~] ps -ax`
+</details>
+
+3. Display all processes in BSD format ?<details><summary>ANS</summary> 
+    `[me@linux ~] ps aux`
+</details>
+
+4. Filter processes according to the user<details><summary>ANS</summary> 
+    `[me@linux ~] ps -u "username"`
+</details>
+
+5. Listing processes by PID<details><summary>ANS</summary> 
+    `[me@linux ~] ps -fp PID"`
+</details>
+
+6. Perform full format listing<details><summary>ANS</summary> 
+    `[me@linux ~] ps -ef"`
+</details>
+
+7. Find all process associated with `systemd`<details><summary>ANS</summary> 
+    `[me@linux ~] ps -ef | grep systemd`
+</details>
+
+8. Display a tree view of current processes<details><summary>ANS</summary> 
+    `[me@linux ~] pstree"`
+</details>
+
+9. Process tree with command line argument<details><summary>ANS</summary> 
+    `[me@linux ~] pstree -a"`
+</details>
+
+10. Process tree with PID<details><summary>ANS</summary> 
+    `[me@linux ~] pstree -p"`
+</details>
+
+11. Process tree with the user / owner of the process<details><summary>ANS</summary> 
+    `[me@linux ~] ps -u"`
+</details>
+
+12. Viewing process Dynimically<details><summary>ANS</summary> 
+    `[me@linux ~] top"`
+</details>
+
+13. Stop a process with PID<details><summary>ANS</summary> 
+    `[me@linux ~] kill PID"`
+</details>
+
+
+
 
