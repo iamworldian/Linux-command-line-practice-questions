@@ -10,6 +10,8 @@
     * [Redirecting and piping](#redirection-io-and-piping)
     * [Permission](#permission)
     * [process](#process)
+* [Part - 2](#part---2)
+    * [Environment](#environment)
 
    
 # Part - 1
@@ -320,5 +322,47 @@ write commands to give `read` and `write` permission to only the user and `read`
 </details>
 
 
+# Part - 2
 
+## Environment
+
+1. Print the environment variables<details><summary>ANS</summary> 
+    `[me@linux ~] printenv | less"`
+</details>
+
+2. Print the environment variable $SHELL<details><summary>ANS</summary> 
+    `[me@linux ~] printenv SHELL"`
+    <br>OR<br>
+    `[me@linux ~] echo $SHELL"`
+</details>
+
+3. Print the Shell variables<details><summary>ANS</summary> 
+    `[me@linux ~] set | less"`
+</details>
+
+4. Show the $HOME variable using `echo`<details><summary>ANS</summary> 
+   `[me@linux ~] echo $HOME"`
+</details>
+
+5. Show the list of available aliases<details><summary>ANS</summary> 
+    `[me@linux ~] alias"`
+</details>
+
+6. Show all exported environment variables<details><summary>ANS</summary> 
+    `[me@linux ~] export"`
+</details>
+
+7. Show all exported environment variables to the current shell<details><summary>ANS</summary> 
+    `[me@linux ~] export -p"`
+</details>
+
+8. Export a new variable called `$NAME` with the value `LINUX` to the current shell.<details><summary>ANS</summary> 
+    `[me@linux ~] NAME=LINUX"`
+</details>
+
+9. Access the newly created variable `NAME` through `echo`<details><summary>ANS</summary> 
+    `[me@linux ~] echo $NAME"`
+</details>
+
+## Vim - The Terminal Editor 
 
