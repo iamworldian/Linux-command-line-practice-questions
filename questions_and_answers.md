@@ -4,23 +4,25 @@
 
 <details><summary>Index</summary>
 
-- [Part - 1](#part---1)
-  - [Warming Up](#warming-up)
-  - [Navigation](#navigation)
-  - [Manipulating Files And the Directories](#manipulating-files-and-the-directories)
-  - [Working with commands](#working-with-commands)
-  - [Redirecting and piping](#redirection-io-and-piping)
-  - [Permission](#permission)
-  - [process](#process)
-- [Part - 2](#part---2)
-_ [Environment](#environment)
-_ [Storage Media](#storage-media)
-_ [Networking](#networking)
-_ [Searching for files](#searching-for-files)
-_ [Archiving and backup](#archiving-and-backup)
-_ [Regular Expression](#regular-expression)
-_ [Text Processing](#text-processing)
-_ [Formatting output](#formatting-output) \* [Printing](#printing)
+* [Part - 1](#part---1)
+  * [Warming Up](#warming-up)
+  * [Navigation](#navigation)
+  * [Manipulating Files And the Directories](#manipulating-files-and-the-directories)
+  * [Working with commands](#working-with-commands)
+  * [Redirecting and piping](#redirection-io-and-piping)
+  * [Permission](#permission)
+  * [process](#process)
+
+* [Part - 2](#part---2)
+    * [Environment](#environment)
+    * [Storage Media](#storage-media)
+    * [Networking](#networking)
+    * [Searching for files](#searching-for-files)
+    * [Archiving and backup](#archiving-and-backup)
+    * [Regular Expression](#regular-expression)
+    * [Text Processing](#text-processing)
+    * [Formatting output](#formatting-output)  
+    * [Printing](#printing)
 </details>
 
 # Part - 1
