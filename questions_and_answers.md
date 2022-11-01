@@ -376,6 +376,26 @@ write commands to give `read` and `write` permission to only the user and `read`
 
 ## Storage Media
 
+1. List the all the block devices connected with the system<details><summary>ANS</summary>
+`[me@linux ~] lsblk"`
+</details>
+
+2. Assume you have a unmounted USB device on `/dev/sda1`.Mount it at `/media/usb` directory<details><summary>ANS</summary>
+`[me@linux ~] sudo mount -t ext4 /dev/sda1 /media/usb"`
+</details>
+
+3. Check if drive is successfully mounted<details><summary>ANS</summary>
+`[me@linux ~] df -h"`
+</details>
+
+4. Unmount previously mounted USB device<details><summary>ANS</summary>
+`[me@linux ~] sudo unmount /dev/sda1"`
+</details>
+
+5. Mount all devices listed in `/etc/fstab`<details><summary>ANS</summary>
+`[me@linux ~] sudo mount -a"`
+</details>
+
 ## Networking
 
 ## Searching for files
